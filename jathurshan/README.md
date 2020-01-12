@@ -3,7 +3,7 @@
 There are two file outside of the folder "002", there are Student.java and Application.java files, 
 the compilation and the running command is very simple to compile and run the program 
 
-Another program inside the folder "002" Which has three folders: A, B, C
+Another program inside the folder "002" Which has three folders: A, B, C........
  A - Application.java
  B - Course.java
  C - Student.java
