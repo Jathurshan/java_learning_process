@@ -1,4 +1,4 @@
-// Generate Multiplication Table for numbers from 1 to 10
+// Generate Multiplication Table for numbers from 1 to 12
 class MultiplicationTable{
     public static void main (String [] args){
 
