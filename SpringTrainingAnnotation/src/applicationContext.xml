@@ -16,6 +16,6 @@
 		class="com.krishantha.training.salesmanager.service.EmployeeServiceImpl"
 		autowire="constructor">
 		<!-- <property name="employeeRepository" ref="employeeRepository"></property> -->
-		<!-- <constructor-arg index="0" ref="employeeRepository"></constructor-arg> -->
+		<constructor-arg index="0" ref="employeeRepository"></constructor-arg>
 	</bean>
 </beans>

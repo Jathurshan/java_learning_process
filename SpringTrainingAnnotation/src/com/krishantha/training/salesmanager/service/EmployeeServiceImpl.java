@@ -14,7 +14,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Autowired
 	private EmployeeRepository employeeRepository;
 
-	@Autowired
+//	@Autowired
 	public EmployeeServiceImpl() {
 		System.out.println("default constructor executed");
 	}
