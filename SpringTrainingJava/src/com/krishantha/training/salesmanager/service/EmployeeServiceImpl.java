@@ -12,13 +12,13 @@ import com.krishantha.training.salesmanager.repository.EmployeeRepository;
 public class EmployeeServiceImpl implements EmployeeService {
 
 	@Autowired
-	private EmployeeRepository employeeRepository;
+	EmployeeRepository employeeRepository;
 
 	public EmployeeServiceImpl() {
 		System.out.println("default constructor executed");
 	}
 
-	@Autowired
+//	@Autowired
 	public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
 		System.out.println("overloaded constructor executed");
 		this.employeeRepository = employeeRepository;

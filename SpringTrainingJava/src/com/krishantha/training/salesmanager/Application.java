@@ -24,6 +24,12 @@ public class Application {
 		
 		EmployeeService employeeService = applicationContext.getBean("employeeService", EmployeeService.class);
 		
+		System.out.println(employeeService.toString());
+		
+		EmployeeService employeeService2 = applicationContext.getBean("employeeService",EmployeeService.class);
+		
+		System.out.println(employeeService2.toString());
+		
 		List<Employee> employees = employeeService.getAllEmployees();
 		
 		for(Employee employee : employees) {
